@@ -1,9 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  group: one
+  initial_user: one
+  destination_user: one
   feed: one
 
 two:
-  group: two
+  initial_user: two
+  destination_user: two
   feed: two

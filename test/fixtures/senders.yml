@@ -1,9 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  group: one
-  feed: one
+  name: MyString
 
 two:
-  group: two
-  feed: two
+  name: MyString

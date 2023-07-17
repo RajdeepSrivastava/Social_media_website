@@ -4,6 +4,7 @@ class User < ApplicationRecord
     has_many :dislikes
     has_many :comments
     has_many :group_members
+    has_many :groups, through: :group_members
 
     validates :username, presence: true, uniqueness: true
     validates :email, presence: true, uniqueness: true
